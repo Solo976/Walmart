@@ -1,6 +1,6 @@
 # Define an AWS EC2 instance
 resource "aws_instance" "jenkinsec2" {
-  ami                    = "ami-062a49a8152e4c031"
+  ami                    = "ami-0e53db6fd757e38c7"
   instance_type          = "t2.medium"
   key_name               = "project12_key"
   subnet_id              = aws_subnet.public-jenkins-subnet.id
